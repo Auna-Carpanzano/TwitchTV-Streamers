@@ -34,3 +34,7 @@ button {
 #offline {
   border-right: none;
 }
+
+#all, #online, #offline {
+  border-bottom: none;
+}
