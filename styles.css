@@ -6,3 +6,8 @@ body {
   background-color: #6441A4;
   color: #000000;
 }
+
+#container {
+  margin: 0 auto;
+  text-align: center;
+}
