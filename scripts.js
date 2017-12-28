@@ -6,5 +6,7 @@ var status;
 
 //Get info from each user in list
 function getInfo() {
+  list.forEach(function(channel) {
 
+  }); //End list.forEach(function(channel))
 }; //End getInfo function
