@@ -43,7 +43,9 @@ function getInfo() {
         }
 
         $("#all").click(function() {
-
+          $("#display").empty();
+          $("#display").prepend(onlines);
+          $("#display").prepend(offlines);
         });
       }); //End second getJSON
     }); //End first getJSON
