@@ -12,7 +12,7 @@ function getInfo() {
     };
     //Get logo, name, and display name from "users" URL
     $.getJSON(makeURL("users", channel), function(data) {
-
+      var logo = data.logo;
     }); //End getJSON
   }); //End list.forEach(function(channel))
 }; //End getInfo function
