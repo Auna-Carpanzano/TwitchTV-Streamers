@@ -51,3 +51,8 @@ button {
   border-radius: 50%;
   width: 60px;
 }
+
+.box {
+  width: 400px;
+  height: 100px;
+}
