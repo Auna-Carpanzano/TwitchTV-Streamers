@@ -62,6 +62,7 @@ function getInfo() {
           $("#display").prepend(offlines);
           $("#all").removeClass("active");
           $("#online").removeClass("active");
+          $("#offline").addClass("active");
         });
       }); //End second getJSON
     }); //End first getJSON
