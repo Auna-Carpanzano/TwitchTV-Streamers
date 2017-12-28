@@ -8,7 +8,7 @@ var status;
 function getInfo() {
   list.forEach(function(channel) {
     function makeURL(type, name) {
-
+      return 'https://wind-bow.gomix.me/twitch-api/' + type + '/' + name + '?callback=?';
     };
   }); //End list.forEach(function(channel))
 }; //End getInfo function
