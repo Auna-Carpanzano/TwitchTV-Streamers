@@ -70,3 +70,8 @@ button {
   float: right;
   margin: 40px 20px 0 0;
 }
+
+.gameSize {
+  clear: right;
+  float: right;
+}
