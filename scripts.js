@@ -60,6 +60,8 @@ function getInfo() {
         $("#offline").click(function() {
           $("#display").empty();
           $("#display").prepend(offlines);
+          $("#all").removeClass("active");
+          $("#online").removeClass("active");
         });
       }); //End second getJSON
     }); //End first getJSON
