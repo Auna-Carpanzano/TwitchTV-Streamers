@@ -19,7 +19,8 @@ function getInfo() {
       //Get status and game from "streams" URL
       $.getJSON(makeURL("streams", channel), function(data2) {
         if (data2.stream === null) {
-
+          status = "OFFLINE";
+          game = "";
         }
       }); //End second getJSON
     }); //End first getJSON
