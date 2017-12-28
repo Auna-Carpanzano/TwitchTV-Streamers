@@ -42,6 +42,9 @@ function getInfo() {
           offlines.push(html);
         }
 
+        $("#all").click(function() {
+
+        });
       }); //End second getJSON
     }); //End first getJSON
   }); //End list.forEach(function(channel))
