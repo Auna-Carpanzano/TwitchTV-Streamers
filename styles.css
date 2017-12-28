@@ -74,4 +74,5 @@ button {
 .gameSize {
   clear: right;
   float: right;
+  margin-right: 20px;
 }
