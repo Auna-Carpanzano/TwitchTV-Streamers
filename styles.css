@@ -113,4 +113,8 @@ button {
   width: 100%;
 }
 
+#all {
+  border-left: 1px solid black;
+}
+
 }
