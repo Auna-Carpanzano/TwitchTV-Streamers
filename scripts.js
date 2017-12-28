@@ -3,3 +3,8 @@ var onlines = [];
 var offlines = [];
 var game;
 var status;
+
+//Get info from each user in list
+function getInfo() {
+
+}; //End getInfo function
