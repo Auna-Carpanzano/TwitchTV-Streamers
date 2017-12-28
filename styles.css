@@ -90,3 +90,7 @@ a:hover {
   color: #6441A4;
   text-decoration: none;
 }
+
+a:active {
+  color: rgb(0, 0, 0);
+}
