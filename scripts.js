@@ -23,6 +23,7 @@ function getInfo() {
           status = "OFFLINE";
           game = "";
         }
+
         if (data2.stream) {
           status = "ONLINE";
           game = data2.stream.game;
@@ -33,12 +34,12 @@ function getInfo() {
         $("#display").prepend(html);
 
         //Add online users to "onlines" variable
-        if (data2.stream){
+        if (data2.stream) {
           onlines.push(html);
         }
 
         //Add offline users to "offlines" variable
-        if (data2.stream === null){
+        if (data2.stream === null) {
           offlines.push(html);
         }
 
@@ -50,6 +51,7 @@ function getInfo() {
           $("#online").removeClass("active");
           $("#all").addClass("active");
         });
+
         $("#online").click(function() {
           $("#display").empty();
           $("#display").prepend(onlines);
@@ -57,6 +59,7 @@ function getInfo() {
           $("#all").removeClass("active");
           $("#online").addClass("active");
         });
+
         $("#offline").click(function() {
           $("#display").empty();
           $("#display").prepend(offlines);
@@ -69,6 +72,6 @@ function getInfo() {
   }); //End list.forEach(function(channel))
 }; //End getInfo function
 
-$(document).ready(function(){
+$(document).ready(function() {
   getInfo();
 });
