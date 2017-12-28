@@ -10,6 +10,7 @@ function getInfo() {
     function makeURL(type, name) {
       return 'https://wind-bow.gomix.me/twitch-api/' + type + '/' + name + '?callback=?';
     };
+
     //Get logo, name, and display name from "users" URL
     $.getJSON(makeURL("users", channel), function(data) {
       var logo = data.logo;
@@ -26,6 +27,8 @@ function getInfo() {
           status = "ONLINE";
           game = data2.stream.game;
         }
+
+        html = '<div class="box"><div><img src="' + logo + '" class="logoSize" alt="Logo"></div><div class="nameSize"><a href="' + "https://go.twitch.tv/" + name + '" target="_blank">' + displayName + '</a></div>' + '<a href="' + "https://go.twitch.tv/" + name + '" target="_blank"><div class="statusSize">' + status + '</div><div class="gameSize">' + game + '</div></a></div>';
       }); //End second getJSON
     }); //End first getJSON
   }); //End list.forEach(function(channel))
