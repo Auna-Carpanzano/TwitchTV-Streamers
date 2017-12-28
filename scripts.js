@@ -51,7 +51,8 @@ function getInfo() {
           $("#all").addClass("active");
         });
         $("#online").click(function() {
-
+          $("#display").empty();
+          $("#display").prepend(onlines);
         });
       }); //End second getJSON
     }); //End first getJSON
