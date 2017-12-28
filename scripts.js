@@ -22,6 +22,9 @@ function getInfo() {
           status = "OFFLINE";
           game = "";
         }
+        if (data2.stream) {
+
+        }
       }); //End second getJSON
     }); //End first getJSON
   }); //End list.forEach(function(channel))
