@@ -18,7 +18,9 @@ function getInfo() {
 
       //Get status and game from "streams" URL
       $.getJSON(makeURL("streams", channel), function(data2) {
+        if (data2.stream === null) {
 
+        }
       }); //End second getJSON
     }); //End first getJSON
   }); //End list.forEach(function(channel))
