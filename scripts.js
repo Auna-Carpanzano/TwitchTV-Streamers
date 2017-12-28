@@ -37,6 +37,11 @@ function getInfo() {
           onlines.push(html);
         }
 
+        //Add offline users to "offlines" variable
+        if (data2.stream === null){
+          offlines.push(html);
+        }
+
       }); //End second getJSON
     }); //End first getJSON
   }); //End list.forEach(function(channel))
