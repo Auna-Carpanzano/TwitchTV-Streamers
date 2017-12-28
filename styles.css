@@ -97,5 +97,8 @@ a:active {
 
 @media screen and (max-width: 484px) {
 
+#display {
+  margin-top: 160px;
+}
 
 }
