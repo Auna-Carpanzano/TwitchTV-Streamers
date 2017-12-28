@@ -15,6 +15,11 @@ function getInfo() {
       var logo = data.logo;
       var displayName = data.display_name;
       var name = data.name;
-    }); //End getJSON
+
+      //Get status and game from "streams" URL
+      $.getJSON(makeURL("streams", channel), function(data2) {
+
+      }); //End second getJSON
+    }); //End first getJSON
   }); //End list.forEach(function(channel))
 }; //End getInfo function
