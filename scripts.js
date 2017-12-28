@@ -53,6 +53,8 @@ function getInfo() {
         $("#online").click(function() {
           $("#display").empty();
           $("#display").prepend(onlines);
+          $("#offline").removeClass("active");
+          $("#all").removeClass("active");
         });
       }); //End second getJSON
     }); //End first getJSON
