@@ -137,4 +137,9 @@ body {
   width: 100%;
 }
 
+.logoSize {
+  width: 60px;
+  margin: 20px 0 0 0;
+}
+
 }
