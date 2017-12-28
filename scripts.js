@@ -14,6 +14,7 @@ function getInfo() {
     $.getJSON(makeURL("users", channel), function(data) {
       var logo = data.logo;
       var displayName = data.display_name;
+      var name = data.name;
     }); //End getJSON
   }); //End list.forEach(function(channel))
 }; //End getInfo function
