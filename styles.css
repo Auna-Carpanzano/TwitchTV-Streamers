@@ -38,3 +38,7 @@ button {
 #all, #online, #offline {
   border-bottom: none;
 }
+
+.active {
+  background-color: #b9a3e3;
+}
