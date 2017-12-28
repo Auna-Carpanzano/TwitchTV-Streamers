@@ -10,5 +10,9 @@ function getInfo() {
     function makeURL(type, name) {
       return 'https://wind-bow.gomix.me/twitch-api/' + type + '/' + name + '?callback=?';
     };
+    //Get logo, name, and display name from "users" URL
+    $.getJSON(makeURL("users", channel), function(data) {
+
+    }); //End getJSON
   }); //End list.forEach(function(channel))
 }; //End getInfo function
