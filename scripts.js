@@ -29,6 +29,8 @@ function getInfo() {
         }
 
         html = '<div class="box"><div><img src="' + logo + '" class="logoSize" alt="Logo"></div><div class="nameSize"><a href="' + "https://go.twitch.tv/" + name + '" target="_blank">' + displayName + '</a></div>' + '<a href="' + "https://go.twitch.tv/" + name + '" target="_blank"><div class="statusSize">' + status + '</div><div class="gameSize">' + game + '</div></a></div>';
+
+        $("#display").prepend(html);
       }); //End second getJSON
     }); //End first getJSON
   }); //End list.forEach(function(channel))
