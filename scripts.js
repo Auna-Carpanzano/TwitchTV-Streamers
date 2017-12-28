@@ -50,6 +50,9 @@ function getInfo() {
           $("#online").removeClass("active");
           $("#all").addClass("active");
         });
+        $("#online").click(function() {
+
+        });
       }); //End second getJSON
     }); //End first getJSON
   }); //End list.forEach(function(channel))
