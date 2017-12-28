@@ -23,7 +23,8 @@ function getInfo() {
           game = "";
         }
         if (data2.stream) {
-
+          status = "ONLINE";
+          game = data2.stream.game;
         }
       }); //End second getJSON
     }); //End first getJSON
