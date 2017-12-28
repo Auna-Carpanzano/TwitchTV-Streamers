@@ -42,3 +42,7 @@ button {
 .active {
   background-color: #b9a3e3;
 }
+
+#display {
+  margin-top: 60px;
+}
