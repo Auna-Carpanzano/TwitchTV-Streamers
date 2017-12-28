@@ -35,3 +35,7 @@ function getInfo() {
     }); //End first getJSON
   }); //End list.forEach(function(channel))
 }; //End getInfo function
+
+$(document).ready(function(){
+  getInfo();
+});
