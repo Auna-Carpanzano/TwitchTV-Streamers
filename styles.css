@@ -133,4 +133,8 @@ body {
   margin-top: 160px;
 }
 
+#container {
+  width: 100%;
+}
+
 }
