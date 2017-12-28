@@ -57,6 +57,9 @@ function getInfo() {
           $("#all").removeClass("active");
           $("#online").addClass("active");
         });
+        $("#offline").click(function() {
+
+        });
       }); //End second getJSON
     }); //End first getJSON
   }); //End list.forEach(function(channel))
